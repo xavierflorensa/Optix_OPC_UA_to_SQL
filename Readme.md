@@ -7,7 +7,7 @@
 [3.	Creating a OPC UA to SQL converter](#_toc157234603)
 
 
-1. # <a name="_toc157234601"></a>OPC UA Client
+# <a name="_toc157234601"></a>1. OPC UA Client
 Let’s create a new OPC Client
 
 <https://www.rockwellautomation.com/docs/en/factorytalk-optix/1-00/contents-ditamap/using-the-software/opc-ua/manage-the-opc-ua-client.html>
@@ -57,7 +57,7 @@ Let’s add a label
 
 ![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 012](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/32570b02-e218-498e-bbca-070d8ff8f24b)
 
-1. # <a name="_toc157191127"></a><a name="_toc157234602"></a>Writing to an SQL database
+# <a name="_toc157191127"></a><a name="_toc157234602"></a>2. Writing to an SQL database
 
 Let’s write to an SQL database from Optix
 
@@ -201,7 +201,7 @@ Let’s test it. It works! That’s all
 ![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 040](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/6f81b7eb-4f1e-4d55-84b9-8e2bc55ff5eb)
 
 
-1. # <a name="_toc157191128"></a><a name="_toc157234603"></a>Creating a OPC UA to SQL converter
+# <a name="_toc157191128"></a><a name="_toc157234603"></a>3. Creating a OPC UA to SQL converter
 
 Take last SQL project and delete the gauge.
 
