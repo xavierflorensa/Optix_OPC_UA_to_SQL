@@ -1,10 +1,10 @@
 ﻿<a name="_toc157191126"></a>OPC UA to SQL with FactoryTalk Optix
 # Contents
-[1.	OPC UA Client	1](#_toc157234601)
+[1.	OPC UA Client](#_toc157234601)
 
-[2.	Writing to an SQL database	7](#_toc157234602)
+[2.	Writing to an SQL database](#_toc157234602)
 
-[3.	Creating a OPC UA to SQL converter	29](#_toc157234603)
+[3.	Creating a OPC UA to SQL converter](#_toc157234603)
 
 
 1. # <a name="_toc157234601"></a>OPC UA Client
@@ -13,61 +13,40 @@ Let’s create a new OPC Client
 <https://www.rockwellautomation.com/docs/en/factorytalk-optix/1-00/contents-ditamap/using-the-software/opc-ua/manage-the-opc-ua-client.html>
 
 
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.001.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 001](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/5c242f15-4cf1-48c6-b3a2-ff112654de31)
 
 Change the address and port of the OPC UA server
 
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.002.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 002](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/cbe038f9-8e23-47c9-b3b3-5996ed55002c)
 
 For instance with FT Kepserver Enterprise, port number is 49370
 
-![Graphical user interface, text, application, email
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.003.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 003](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/554f2a08-e62e-4617-a1a8-42605b21ab02)
 
 Right click to add a new OPCUA Tag Importer
 
 Then double click on it
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.004.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 004](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/bcc1d093-ff17-4307-b59e-65f7a26eab7b)
 
 Click on the Button to go online with the OPC server
 
-![Graphical user interface, text, application, Word
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 005](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/4ac45690-9d0c-41a6-929a-2d57cf6707fc)
 
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.005.png)
-
-![Graphical user interface
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.006.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 006](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/0cbd745f-bd0d-4fa2-ac2c-58d2e2d3bb86)
 
 Click on apply
 
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.007.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 007](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/9892fa5f-8a72-44e7-91d3-f932c458fc10)
 
 On Objects you will see this
 
-![Text
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.008.png)
-
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 008](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/7a2b86a0-9ead-4f1a-8051-901ed86dfcea)
 Now let’s create a texbox that points to the data
 
-![Graphical user interface, application
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 009](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/c6a11572-7076-456c-993c-5a93fe58a6c8)
 
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.009.png)
-
-![Graphical user interface, table
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.010.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 010](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/6f7bfee6-0995-4731-8c24-e90d5eebb633)
 
 That’s all
 
