@@ -1,0 +1,73 @@
+Name: OPCUAClient1
+Id: g=15771eb6aa494f7d4cc2b07e4f2850f2
+Type: OPCUAClient
+Children:
+- Name: ServerEndpointURL
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "opc.tcp://127.0.0.1:49370"
+- Name: MinimumMessageSecurityMode
+  Type: BaseDataVariableType
+  DataType: MessageSecurityModeEnum
+  Value: 0
+- Name: MinimumSecurityPolicy
+  Type: BaseDataVariableType
+  DataType: SecurityPolicyEnum
+  Value: 0
+- Name: UserIdentityType
+  Type: BaseDataVariableType
+  DataType: UserIdentityTypeEnum
+  Value: 0
+- Name: ConnectionStatus
+  Type: BaseDataVariableType
+  DataType: ConnectionStatusEnum
+  AccessLevel: Read
+  Value: 0
+- Name: ServerUri
+  Type: BaseDataVariableType
+  DataType: String
+  AccessLevel: Read
+  Value: ""
+- Name: Events
+  Type: BaseDataVariableType
+  DataType: EventsEnum
+  Value: 1
+- Name: RuntimeConfigurations
+  Type: BaseObjectType
+- Class: Reference
+  Target: ns=10;i=8
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=9
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=54
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=57
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=91
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=60
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=63
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=83
+  Direction: Forward
+- Class: Reference
+  Target: ns=10;i=75
+  Direction: Forward
+- Name: Objects
+  Type: BaseObjectType
+  Children:
+  - Name: ns=3;Channel1
+    Id: ns=3;s=Channel1
+    Type: FolderType
+    DisplayName: {"LocaleId":"en","Text":"Channel1"}
+    Description: {"LocaleId":"en","Text":""}
+    Children:
+    - File: Device1/Device1.yaml

@@ -1,0 +1,69 @@
+Project:
+ Name: Optix_OPC_UA_to_SQL
+ GUID: cde96a66211f008f2b8042c3d2a9fc05
+ ProjectNamespaceIndex: 14
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.4
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: '15771eb6aa494f7d4cc2b07e4f2850f2#urn:LAPTOP-RJD8T884:Kepware.KEPServerEnterprise.V5:UA Server'
+   ServerUri: 15771eb6aa494f7d4cc2b07e4f2850f2
+  3:
+   Uri: '15771eb6aa494f7d4cc2b07e4f2850f2#KEPServerEnterprise'
+   ServerUri: 15771eb6aa494f7d4cc2b07e4f2850f2
+  4:
+   Uri: '15771eb6aa494f7d4cc2b07e4f2850f2#urn:CATPROLP1003-23.soporte.com:Kepware.KEPServerEnterprise:UA%20Server'
+   ServerUri: 15771eb6aa494f7d4cc2b07e4f2850f2
+  5:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 3.1
+  6:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 12.0
+  7:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  9:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+  10:
+   Uri: 'urn:FTOptix:OPCUAClient'
+   Module: FTOptix.OPCUAClient
+   Version: 1.1
+  11:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 5.3
+  12:
+   Uri: 'urn:FTOptix:ODBCStore'
+   Module: FTOptix.ODBCStore
+   Version: 1.0
+  13:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 2.0
+ Statistics:
+  TotalNodeCount: 209
+  Objects: 82
+  ObjectTypes: 1
+  Variables: 126
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 26
+  ReferenceTypes: 0
+  Files: 19
+ Nodes:
+ - File: Nodes/Optix_OPC_UA_to_SQL.yaml

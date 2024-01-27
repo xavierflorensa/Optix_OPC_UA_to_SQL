@@ -1,0 +1,14 @@
+Name: ns=3;Device1
+Id: ns=3;s=Channel1.Device1
+Type: FolderType
+DisplayName: {"LocaleId":"en","Text":"Device1"}
+Description: {"LocaleId":"en","Text":""}
+ReferenceType: Organizes
+Children:
+- Name: ns=3;IoT_data
+  Id: ns=3;s=Channel1.Device1.IoT_data
+  Type: BaseVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"IoT_data"}
+  Description: {"LocaleId":"en","Text":""}
+  Value: 6310

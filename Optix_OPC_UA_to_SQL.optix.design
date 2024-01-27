@@ -1,0 +1,47 @@
+Project:
+ Name: Optix_OPC_UA_to_SQL_Design
+ ProjectNamespaceIndex: 9
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.4
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: Optix_OPC_UA_to_SQL
+   RelativePath: Optix_OPC_UA_to_SQL.optix
+  3:
+   Uri: '15771eb6aa494f7d4cc2b07e4f2850f2#urn:LAPTOP-RJD8T884:Kepware.KEPServerEnterprise.V5:UA Server'
+   ServerUri: 15771eb6aa494f7d4cc2b07e4f2850f2
+  4:
+   Uri: '15771eb6aa494f7d4cc2b07e4f2850f2#KEPServerEnterprise'
+   ServerUri: 15771eb6aa494f7d4cc2b07e4f2850f2
+  5:
+   Uri: '15771eb6aa494f7d4cc2b07e4f2850f2#urn:CATPROLP1003-23.soporte.com:Kepware.KEPServerEnterprise:UA%20Server'
+   ServerUri: 15771eb6aa494f7d4cc2b07e4f2850f2
+  6:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 3.1
+  7:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
+ Statistics:
+  TotalNodeCount: 4
+  Objects: 1
+  ObjectTypes: 0
+  Variables: 3
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 0
+  ReferenceTypes: 0
+  Files: 1
+ Nodes:
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient1/OPCUATagImporter.yaml'
