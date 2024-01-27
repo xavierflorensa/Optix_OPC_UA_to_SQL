@@ -161,69 +161,44 @@ And select the variable to log and the destination, just the database
 
 If we now open the ODBC object, surprise, a new Table an columns have been created for us
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.031.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 031](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/773865c3-cea4-4aa6-af7c-3d533674dc5c)
 
 If we take a look at the database:
 
 You have to disconnect and connect again to see the changes
 
-![Graphical user interface, text, application
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 032](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/11a2f479-3a67-4b3c-9e0f-43b0a948f23b)
 
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.032.png)
-
-![Graphical user interface, text, application, email
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.033.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 033](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/8404f75c-f38f-4de9-97f2-4f61cd9fc591)
 
 Still nothing
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.034.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 034](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/01a6c29c-b9d9-4579-8a2b-13e617843c94)
 
 Until you run the Optix Runtime
 
-![Chart
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.035.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 035](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/b9cb6210-17cb-43cf-b585-5af9a689b8e1)
 
 Give some values to the gauge dropping the index
 
 Then go to the Database, and …voilà
 
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.036.png)
-
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 036](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/b2fc90f2-1ef1-4e66-9b91-9d3bb8603949)
 Now let’s look at the data, this is working fine
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.037.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 037](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/4f82b77e-4eac-498a-9dee-7e0487d8be8d)
 
 Now let’s add a Datagrid on the Optix Project
 
 Drag and drop the table to the Datagrid
 
-![Graphical user interface
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 038](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/8922d98d-1440-40c5-b9da-266a9af62c84)
 
-Description automatically generated with medium confidence](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.038.png)
-
-![A picture containing chart
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.039.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 039](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/446bbcb5-792f-4a40-97a5-1707958524dd)
 
 Let’s test it. It works! That’s all
 
-![Graphical user interface
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.040.png)
-
-
-
-
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 040](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/6f81b7eb-4f1e-4d55-84b9-8e2bc55ff5eb)
 
 
 1. # <a name="_toc157191128"></a><a name="_toc157234603"></a>Creating a OPC UA to SQL converter
@@ -232,49 +207,34 @@ Take last SQL project and delete the gauge.
 
 Then add the OPC UA client like in section 6.
 
-![Graphical user interface, text, application, email
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.041.png)
-
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 041](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/80984861-162b-4ddd-b5a1-4ff16f0f74d6)
 Now we have access to IoT\_data Tag
 
-![Graphical user interface, application, table, Excel
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.042.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 042](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/379717fe-6615-4a15-8544-fbcd3f54fef6)
 
 First of all test that we are reading OPC UA data
 
 Yes
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.043.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 043](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/02b631bd-7707-4e57-96ad-2c114b7eaa41)
 
 Then let’s erase the data on the database from previous chapter.
 
-![Graphical user interface, text, application, email
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.044.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 044](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/03c14c00-8d94-4388-bff0-03866d3d11d2)
 
 Verify that the data is erased from Optix
 
-![Graphical user interface, text, application, email
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.045.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 045](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/4db5ff16-917d-47aa-8258-0e9cb8c4226e)
 
 Now just change the source of data on the datalogger Object
 
-![Graphical user interface, text, application, email
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.046.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 046](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/0b8a8cfe-9e5d-4d11-a793-b06377706cc0)
 
 Let’s test The Optix Runtime
 
 It takes a while until the values are logged. I have also restarted the OPC UA server.
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.047.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 047](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/6ac5d8e0-5d43-4de1-9493-615995d697f0)
 
 Clear the Table again
 
@@ -284,25 +244,17 @@ Let’s close the runtime and open it again
 
 Now it works
 
-![Graphical user interface, text
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.048.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 048](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/3c7ba098-6b52-4c8b-9055-6ee78234a7d5)
 
 Let’s put an autorefresh to the datagrid and sort ascending, descending to see it live!
 
-![Graphical user interface, text, application
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 049](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/1a831c2a-c90e-43da-8c04-13a587e2971e)
 
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.049.png)
-
-![Table
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.050.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 050](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/43dc1a01-5505-4750-97ff-ecdb28af2e36)
 
 As you can see on this video
 
 <https://www.youtube.com/watch?v=irL_CHUZaHY>
 
-![Graphical user interface, application, Excel
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.051.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 051](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/ed4a8637-4da3-4e58-996e-671dac0f04b3)
 
