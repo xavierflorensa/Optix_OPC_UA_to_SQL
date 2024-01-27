@@ -42,6 +42,7 @@ Click on apply
 On Objects you will see this
 
 ![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 008](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/7a2b86a0-9ead-4f1a-8051-901ed86dfcea)
+
 Now let’s create a texbox that points to the data
 
 ![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 009](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/c6a11572-7076-456c-993c-5a93fe58a6c8)
@@ -50,15 +51,12 @@ Now let’s create a texbox that points to the data
 
 That’s all
 
-![Graphical user interface, table
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.011.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 011](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/c715cfd7-f367-4d58-a7e8-18748f255f53)
 
 Let’s add a label
 
-![Graphical user interface, text
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 012](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/32570b02-e218-498e-bbca-070d8ff8f24b)
 
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.012.png)
 1. # <a name="_toc157191127"></a><a name="_toc157234602"></a>Writing to an SQL database
 
 Let’s write to an SQL database from Optix
@@ -69,25 +67,17 @@ First just read from a Database
 
 Add a Database object
 
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.013.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 013](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/8f294fea-3576-4411-b521-53724ac5378c)
 
 Be sure to have an SQL working database, with user, password, access thru TCP/IP, etc.
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.014.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 014](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/51d56bb2-fac2-4a73-a6c0-6b7c459d1453)
 
 Complete database properties click on Table +  and Column + to match our Database
 
-![Table
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 015](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/775e4cc4-185f-4779-986e-afb027d15a92)
 
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.015.png)
-
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.016.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 016](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/22a09191-4232-4357-9882-213a59d3019d)
 
 If you do not add a column here you will have errors when drag and drop to the Table1 to the  data grid (Unable to insert a empty table to the datagrid)
 
@@ -97,23 +87,17 @@ Display Database data
 
 Just click on the + on Tables to create a new table (even thought it already exists on the MS database)
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.017.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 017](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/109df422-e1b6-4d30-aeba-1f57227d5ab2)
 
 Do not forget to add a column minimum
 
 Drag and Drop
 
-![Chart
-
-Description automatically generated with medium confidence](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.018.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 018](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/9f55f04d-6337-4c68-80a2-b92a78f67fee)
 
 It works!!
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.019.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 019](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/71ed43ca-8ca2-478c-9a23-50d22e00cdae)
 
 Now let’s try to write a variable on the database
 
@@ -131,71 +115,49 @@ But let’s start creating a complete new project
 
 For instance sql\_datalogger\_optix\_v2
 
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.020.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 020](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/2ee51f11-ca38-409f-9f6a-42c3e9a2a223)
 
 But first let’s create a database without a Table (Optix and The Datalogger function will create the Table)
 
 For instance let’s create a new database Optix2
 
-![Graphical user interface, text, application, email
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.021.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 021](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/fdb2f012-adb3-4e64-abd1-dfe7b4829f4c)
 
 Just give a name, that’s all
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.022.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 022](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/4b6cffac-1328-4b39-bcd3-9f16050cd340)
 
 There are no user tables
 
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.023.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 023](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/f7143df8-0bf0-424b-b7cc-cfb35c3fd89f)
 
 Now Let’s go to Optix
 
 Add a variable to work with
 
-![Graphical user interface, text, application
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 024](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/8f0836ad-f171-47aa-8ef8-73a4f4912fd1)
 
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.024.png)
-
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.025.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 025](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/8446e282-a4b0-4a0d-8842-e1eb67307990)
 
 Add a Slider to enter values to such variable
 
-![Graphical user interface, chart
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.026.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 026](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/7ac72bdf-6797-471a-9f66-dcd67df6ff8c)
 
 Next create the Database instance on Optix
 
-![Graphical user interface
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.027.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 027](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/b720d6eb-234b-4d1f-8246-e66bce0c370e)
 
 Point to the existing database, but do not create any Table on Optix
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.028.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 028](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/280b4a38-2c2d-4a74-8bbf-01cd529f2403)
 
 Then create a new DataLogger
 
-![A picture containing table
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.029.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 029](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/45214704-ec59-4c9e-bc00-4c133ac2b00a)
 
 And select the variable to log and the destination, just the database
 
-![Graphical user interface, text, application, email
-
-Description automatically generated](Aspose.Words.9a4ef72d-2c56-4e38-8555-c09687483f0d.030.png)
+![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 030](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/7a1d663e-1cc2-49a3-b159-341ad4679925)
 
 If we now open the ODBC object, surprise, a new Table an columns have been created for us
 
