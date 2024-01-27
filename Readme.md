@@ -184,6 +184,7 @@ Give some values to the gauge dropping the index
 Then go to the Database, and …voilà
 
 ![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 036](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/b2fc90f2-1ef1-4e66-9b91-9d3bb8603949)
+
 Now let’s look at the data, this is working fine
 
 ![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 037](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/4f82b77e-4eac-498a-9dee-7e0487d8be8d)
@@ -205,9 +206,10 @@ Let’s test it. It works! That’s all
 
 Take last SQL project and delete the gauge.
 
-Then add the OPC UA client like in section 6.
+Then add the OPC UA client like in previous sections.
 
 ![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 041](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/80984861-162b-4ddd-b5a1-4ff16f0f74d6)
+
 Now we have access to IoT\_data Tag
 
 ![Aspose Words 9a4ef72d-2c56-4e38-8555-c09687483f0d 042](https://github.com/xavierflorensa/Optix_OPC_UA_to_SQL/assets/55208134/379717fe-6615-4a15-8544-fbcd3f54fef6)
