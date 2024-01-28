@@ -55,10 +55,10 @@ Project:
    Module: FTOptix.NativeUI
    Version: 2.0
  Statistics:
-  TotalNodeCount: 209
-  Objects: 82
+  TotalNodeCount: 216
+  Objects: 83
   ObjectTypes: 1
-  Variables: 126
+  Variables: 132
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
